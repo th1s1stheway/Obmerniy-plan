@@ -23,5 +23,5 @@ function calculateCoordinates(wallData) {
     return coordinates;
 }
 var coordinates = calculateCoordinates(wallData);
-console.log(coordinates);
+console.log(coordinates); //попробовал отрисовать по полученным коородинатам, рисунок получается будто бы задом наперед, вероятно из-за того, что точки были написани задом наперед в массиве, это можно исправить путем замены push на unshift, но я решил оставить так, как дано в задаче
 
